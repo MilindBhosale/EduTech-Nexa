@@ -1,0 +1,15 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a node server for Live ChitChat App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milind Bhosale",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.3"
+  }
+}

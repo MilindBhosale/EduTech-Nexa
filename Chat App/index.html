@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveChitChat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/clint.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="Name">
+        <img class="logo" src="chat.png" alt="">
+        <h1 >ChitChat</h1>
+    </nav>
+    <div class="container">
+        <img class="backgroundImg" src="chat.png" alt="">
+        <div class="message right">Milind: Hey!! What are you doing?</div>
+        <div class="message left">Ritesh: Cheating and Chating 😁😁</div>
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container" >
+            <input type="text" name="message" id="messageI" placeholder="Message">
+            <img id="sendicon" type="submit" src="send-message.png" alt="">
+            <!--<button class="btn" type="submit">Send</button> -->
+        </form>
+    </div>
+</body>
+</html>
